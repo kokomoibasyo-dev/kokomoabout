@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ここもラーケーション | 旅には“学び”が詰まってる</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;700&family=Shippori+Mincho:wght@400;600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Zen Maru Gothic', sans-serif;
+            background-color: #fdfbf7; /* 和紙っぽい色 */
+            color: #433d3c;
+        }
+        h1, h2, h3 {
+            font-family: 'Shippori Mincho', serif;
+        }
+    </style>
+</head>
+
+<body class="scroll-smooth">
+
+<!-- ===========================
+     ヘッダー
+=========================== -->
+<header class="sticky top-0 z-50 bg-white/90 backdrop-blur-sm shadow-sm border-b border-gray-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-20">
+
+            <!-- Logo -->
+            <a href="#" class="flex items-center space-x-3 group">
+                <img 
+                    src="https://raw.githubusercontent.com/kokomoibasyo-dev/kokomomain/main/logo.png" 
+                    alt="ここもロゴ" 
+                    class="h-14 w-auto object-contain group-hover:opacity-80 transition"
+                />
+            </a>
+
+            <!-- Navigation -->
+            <nav class="hidden md:flex space-x-8 text-lg">
+                <a href="#section01" class="hover:text-gray-600">想い</a>
+                <a href="#section02" class="hover:text-gray-600">モデルコース</a>
+                <a href="#section03" class="hover:text-gray-600">教育的根拠</a>
+                <a href="#section04" class="hover:text-gray-600">Q＆A</a>
+                <a href="#section05" class="hover:text-gray-600">料金・お問い合わせ</a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<!-- ===========================
+     HERO
+=========================== -->
+<section class="relative w-full h-[70vh] flex items-center justify-center bg-gray-200" id="top">
+
+    <!-- ★ ここは後で差し替え可能：子どもが工芸体験している後ろ姿 -->
+    <img 
+        src="https://images.unsplash.com/photo-1581091012817-5c1c1c36b9c5?auto=format&fit=crop&w=1600&q=80"
+        class="absolute inset-0 w-full h-full object-cover opacity-90"
+        alt="工芸体験イメージ"
+    />
+
+    <div class="relative z-10 text-center px-6">
+        <h1 class="text-4xl md:text-5xl font-semibold text-white drop-shadow-lg">
+            旅には“学び”が詰まってる。
+        </h1>
+        <p class="mt-4 text-xl md:text-2xl text-white drop-shadow-md">
+            子どもの「好き」と、世界をつなぐラーケーション。
+        </p>
+        <a href="#section02" 
+           class="inline-block mt-8 bg-white/90 border border-gray-300 px-8 py-3 rounded-full text-lg hover:bg-white transition">
+            モデルコースを見る
+        </a>
+    </div>
+</section>
+
+<!-- ===========================
+     想い
+=========================== -->
+<section id="section01" class="py-20">
+    <div class="max-w-4xl mx-auto px-6">
+        <h2 class="text-3xl md:text-4xl font-semibold mb-8">ここもラーケーションに込めた想い</h2>
+
+        <p class="leading-relaxed text-lg">
+            旅は、いつも「学びのはじまり」だと思っています。  
+            景色が変わるだけで、こころの奥に眠っていた感性や問いが、ふっと動き出す。  
+            子どもたちは、教室の外でも、たしかに学んでいます。
+        </p>
+
+        <p class="leading-relaxed text-lg mt-6">
+            でも、学校に「教育的意義」を説明できなければ、  
+            その学びは正式に認められないことがあります。  
+            だからこそ私たちは、教員経験者として、  
+            <strong>“学校に提出できるラーケーション”</strong> をつくりたいと思いました。
+        </p>
+
+        <p class="leading-relaxed text-lg mt-6">
+            沖縄の伝統工芸、自然、歴史。  
+            それらを“観光”ではなく、“学びの素材”として設計し、  
+            子どもが世界と出会い、ことばを育て、  
+            「自分」をつくっていく過程を丁寧に支えます。
+        </p>
+    </div>
+</section>
+
+<!-- ===========================
+     モデルコース
+=========================== -->
+<section id="section02" class="py-20 bg-[url('https://www.transparenttextures.com/patterns/asfalt-dark.png')] bg-white/70">
+    <div class="max-w-6xl mx-auto px-6">
+
+        <h2 class="text-3xl md:text-4xl font-semibold mb-12">モデルコース（沖縄 × 伝統工芸）</h2>
+
+        <div class="grid md:grid-cols-2 gap-12">
+
+            <!-- Course Card -->
+            <div class="bg-white rounded-2xl shadow-lg p-8">
+                <h3 class="text-2xl font-semibold mb-4">1泊2日：紅型 × 色と模様の探究</h3>
+
+                <p class="leading-relaxed">
+                    初日は紅型工房で色づくり・模様づくりを体験。  
+                    職人さんの技とお話から「色の意味」「デザインの物語」を知ります。  
+                    翌日は、自分だけの作品をつくりながら「なぜその色を選ぶのか」を探究していきます。
+                </p>
+
+                <ul class="mt-6 list-disc ml-6 text-gray-700 leading-relaxed">
+                    <li>紅型工房見学と制作体験</li>
+                    <li>職人インタビュー（問いを作るワークつき）</li>
+                    <li>“自分の色”をテーマにした事後レポート</li>
+                </ul>
+            </div>
+
+            <!-- Course Card -->
+            <div class="bg-white rounded-2xl shadow-lg p-8">
+                <h3 class="text-2xl font-semibold mb-4">1泊2日：織物 × 手仕事とリズムの探究</h3>
+
+                <p class="leading-relaxed">
+                    糸をかけ、織り、布ができる。  
+                    その単純な行為の中に、“集中”“選択”“創造”が育ちます。  
+                    織物の歴史や地域文化にも触れながら、自分のペースで作品を仕上げます。
+                </p>
+
+                <ul class="mt-6 list-disc ml-6 text-gray-700 leading-relaxed">
+                    <li>糸選び・機織り体験</li>
+                    <li>「沖縄の布文化」に触れる座学</li>
+                    <li>振り返りワーク（気づきの言語化）</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===========================
+     教育的根拠
+=========================== -->
+<section id="section03" class="py-20">
+    <div class="max-w-5xl mx-auto px-6">
+
+        <h2 class="text-3xl md:text-4xl font-semibold mb-10">教育的根拠（学校提出用）</h2>
+
+        <p class="leading-relaxed text-lg">
+            ここもラーケーションは、学習指導要領に示されている  
+            <strong>「見方・考え方」</strong> と  
+            <strong>「資質・能力（知識・技能／思考・判断・表現／学びに向かう力）」</strong>  
+            に基づいて設計されています。
+        </p>
+
+        <div class="mt-10 grid md:grid-cols-2 gap-10">
+            <div>
+                <h3 class="text-2xl font-semibold mb-3">● 教科との接続</h3>
+                <ul class="list-disc ml-6 leading-relaxed">
+                    <li>美術：工芸・デザインの理解</li>
+                    <li>社会：地域文化・産業の探究</li>
+                    <li>国語：インタビュー、記録、振り返り</li>
+                    <li>技術：素材・加工の理解</li>
+                    <li>総合的な学習（探究）：主体的な問いの形成</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-2xl font-semibold mb-3">● 非認知能力の育成</h3>
+                <ul class="list-disc ml-6 leading-relaxed">
+                    <li>自己効力感（できた／わかった）</li>
+                    <li>持続力・集中力</li>
+                    <li>協働性・コミュニケーション</li>
+                    <li>多面的なものの見方</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===========================
+     Q&A
+=========================== -->
+<section id="section04" class="py-20 bg-white/70">
+    <div class="max-w-4xl mx-auto px-6">
+
+        <h2 class="text-3xl md:text-4xl font-semibold mb-10">Q＆A</h2>
+
+        <div class="space-y-8">
+
+            <div>
+                <h3 class="text-xl font-semibold">Q. 出席扱いになりますか？</h3>
+                <p class="mt-2 leading-relaxed">
+                    学校長判断ですが、提出資料（計画書・振り返り）を整えて相談すれば  
+                    認められるケースが増えています。  
+                    必要書類はすべてこちらで準備します。
+                </p>
+            </div>
+
+            <div>
+                <h3 class="text-xl font-semibold">Q. 不登校の子どもでも大丈夫？</h3>
+                <p class="mt-2 leading-relaxed">
+                    もちろん大丈夫です。  
+                    子どもの状況に合わせて、負担のないペースで構成します。
+                </p>
+            </div>
+
+            <div>
+                <h3 class="text-xl font-semibold">Q. 親も一緒に参加できますか？</h3>
+                <p class="mt-2 leading-relaxed">
+                    はい。親子での参加は大歓迎です。  
+                    家族の関係性が整う“学びの旅”としてご活用ください。
+                </p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ===========================
+     料金・お問い合わせ
+=========================== -->
+<section id="section05" class="py-20">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+
+        <h2 class="text-3xl md:text-4xl font-semibold mb-10">料金・お問い合わせ</h2>
+
+        <p class="leading-relaxed text-lg mb-6">
+            お子さまの状況や目的に合わせて  
+            <strong>カスタムプラン</strong> をご提案します。
+        </p>
+
+        <div class="bg-white rounded-2xl shadow-lg max-w-md mx-auto p-8 border border-gray-200">
+            <h3 class="text-2xl font-semibold mb-4">基本料金</h3>
+            <ul class="leading-relaxed text-left list-disc ml-6">
+                <li>ラーケーション教育設計料：◯◯円〜</li>
+                <li>工房体験料：実費</li>
+                <li>事後レポート作成サポート：オプション</li>
+            </ul>
+        </div>
+
+        <a href="mailto:kokomobase@gmail.com"
+           class="inline-block mt-10 bg-[#705c53] text-white px-10 py-4 text-lg rounded-full hover:bg-[#5b4b45] transition">
+            お問い合わせはこちら
+        </a>
+    </div>
+</section>
+
+<!-- ===========================
+     フッター
+=========================== -->
+<footer class="py-12 border-t border-gray-200 text-center text-sm text-gray-600">
+    <img 
+        src="https://raw.githubusercontent.com/kokomoibasyo-dev/kokomomain/main/logo.png" 
+        class="h-10 mx-auto mb-4"
+    />
+    © 2025 ここも – Kokomo Learning.
+</footer>
+
+</body>
+</html>
